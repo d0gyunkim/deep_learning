@@ -10,6 +10,9 @@ def step_func(x):
 def ReLU(x):
     return np.maximum(0, x)
 
+def identity_func(x):
+    return x
+
 # 입력 범위
 x = np.linspace(-5, 5, 100)
 
